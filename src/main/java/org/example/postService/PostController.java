@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class AppController {
+public class PostController {
     Scanner sc = Container.getSc();
     List<Post> postList = new ArrayList<>();
     int postId = 0;

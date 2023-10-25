@@ -1,7 +1,7 @@
 package org.example;
 
 
-import org.example.postService.AppController;
+import org.example.postService.PostController;
 import org.example.userService.UserController;
 
 import java.util.Scanner;
@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class App {
     public void run() {
         Scanner sc = Container.getSc();
-        AppController appController = new AppController();
+        PostController postController = new PostController();
         UserController systemController = new UserController();
         boolean sayHello = true;
 
@@ -38,11 +38,11 @@ public class App {
                         break;
                     }
 
-                    appController.write(loginID);
+                    postController.write(loginID);
                     break;
 
                 case "목록":
-                    appController.list();
+                    postController.list();
                     break;
 
                 case "수정":
@@ -51,7 +51,7 @@ public class App {
                         break;
                     }
 
-                    appController.modify(loginID);
+                    postController.modify(loginID);
                     break;
 
                 case "삭제":
@@ -60,7 +60,7 @@ public class App {
                         break;
                     }
 
-                    appController.remove(loginID);
+                    postController.remove(loginID);
                     break;
 
                 case "회원가입":
