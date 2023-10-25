@@ -1,8 +1,8 @@
-package org.example.appService;
+package org.example.postService;
 
 
 import org.example.Container;
-import org.example.entity.Post;
+import org.example.postService.entity.Post;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.example.entity;
+package org.example.postService.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

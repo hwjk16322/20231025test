@@ -1,8 +1,8 @@
 package org.example;
 
 
-import org.example.appService.AppController;
-import org.example.systemController.SystemController;
+import org.example.postService.AppController;
+import org.example.userService.UserController;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class App {
     public void run() {
         Scanner sc = Container.getSc();
         AppController appController = new AppController();
-        SystemController systemController = new SystemController();
+        UserController systemController = new UserController();
         boolean sayHello = true;
 
 

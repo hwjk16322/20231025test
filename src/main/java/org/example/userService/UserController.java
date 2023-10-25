@@ -1,15 +1,15 @@
-package org.example.systemController;
+package org.example.userService;
 
 
 import org.example.Container;
-import org.example.entity.User;
+import org.example.userService.entity.User;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 
-public class SystemController {
+public class UserController {
     Scanner sc = Container.getSc();
     List<User> userList = new ArrayList<>();
     public String loginID;
